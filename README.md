@@ -28,6 +28,6 @@
 
 ## **Routes**
 ### **Register**
-- ### **METHOD POST:** http://localhost:3333/api/register **body**: { email: '', password: '' }
+- #### **METHOD POST:** http://localhost:3333/api/register **body**: { email: '', password: '' }
 ### **Login**
-- ### LOGIN **METHOD GET:** http://localhost:3333/api/login **body**: { email: '', password: '' }
+- #### **METHOD GET:** http://localhost:3333/api/login **body**: { email: '', password: '' }
