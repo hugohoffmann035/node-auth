@@ -24,8 +24,6 @@ route.post("/register", (req, res) => {
 			password: passwordEncypt,
 		});
 
-		console.log(createdUser)
-
 		res.status(201).send();
 	} catch (err) {
 		res.status(500).send();
