@@ -4,7 +4,7 @@ const { bcryptHash } = require("../../../helpers/bcrypt");
 
 const { findOne, create } = require("../../models/User");
 
-route.get("/register", (req, res) => {
+route.post("/register", (req, res) => {
 	const { email, password } = req.body;
 
 	if (!email) return res.status(400).send({ error: "E-mail not found" });
